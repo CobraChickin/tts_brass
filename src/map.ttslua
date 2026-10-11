@@ -249,256 +249,481 @@ local map = {
 }
 
 map.links = {
-  {
+  Chicago_Saginaw = {
     isRail = true,
     zone = g("fe49fb"),
     between = { map.locations.Chicago, map.locations.Saginaw },
     bonus = "income2"
   },
-  {
+
+  Chicago_Toledo = {
     isRail = true,
     zone = g("39148b"),
     between = { map.locations.Chicago, map.locations.Toledo }
   },
-  {
+
+  Chicago_EadsBridge = {
     isRail = true,
     zone = g("3bebfb"),
     between = { map.locations.Chicago, map.locations.EadsBridge },
     bonus = "develop"
   },
-  {
+
+  Chicago_Indianapolis = {
     isRail = true,
     zone = g("e31576"),
     between = { map.locations.Chicago, map.locations.Indianapolis }
   },
-  {
+
+  EadsBridge_Indianapolis = {
     isRail = true,
     zone = g("ea91f0"),
     between = { map.locations.EadsBridge, map.locations.Indianapolis },
     bonus = "develop"
   },
-  {
+
+  Saginaw_Detroit = {
     isRail = true,
     zone = g("146344"),
     between = { map.locations.Saginaw, map.locations.Detroit }
   },
-  {
+
+  Toledo_Detroit = {
     isRail = true,
     zone = g("410269"),
     between = { map.locations.Toledo, map.locations.Detroit }
   },
-  {
+
+  Toledo_Cleveland = {
     isRail = true,
     zone = g("1de72e"),
     between = { map.locations.Toledo, map.locations.Cleveland }
   },
-  {
+
+  Indianapolis_Columbus = {
     isRail = true,
     zone = g("fa18d8"),
     between = { map.locations.Indianapolis, map.locations.Columbus }
   },
-  {
+
+  Indianapolis_Cincinnati = {
     isRail = true,
     zone = g("4d4ff4"),
     between = { map.locations.Indianapolis, map.locations.Cincinnati },
     bonus = "whiskey"
   },
-  {
+
+  Detroit_Canada = {
     isRail = true,
     zone = g("5d7ece"),
     between = { map.locations.Detroit, map.locations.Canada },
     bonus = "whiskey"
   },
-  {
+
+  Cleveland_Erie = {
     isRail = true,
     zone = g("4049f8"),
     between = { map.locations.Cleveland, map.locations.Erie }
   },
-  {
+
+  Cleveland_Pittsburgh = {
     isRail = true,
     zone = g("274c2b"),
     between = { map.locations.Cleveland, map.locations.Pittsburgh }
   },
-  {
+
+  Cleveland_Columbus = {
     isRail = true,
     zone = g("0f7803"),
     between = { map.locations.Cleveland, map.locations.Columbus }
   },
-  {
+
+  Cincinnati_Clarksburg = {
     isRail = true,
     zone = g("a3f8b3"),
     between = { map.locations.Cincinnati, map.locations.Clarksburg }
   },
-  {
+
+  Cincinnati_TheSouth = {
     isRail = true,
     zone = g("c69437"),
     between = { map.locations.Cincinnati, map.locations.TheSouth }
   },
-  {
+
+  Canada_Buffalo = {
     isRail = true,
     zone = g("e1f7aa"),
     between = { map.locations.Canada, map.locations.Buffalo }
   },
-  {
+
+  Erie_Buffalo = {
     isRail = true,
     zone = g("538db5"),
     between = { map.locations.Erie, map.locations.Buffalo }
   },
-  {
+
+  Pittsburgh_Harrisburg = {
     isRail = true,
     zone = g("6cb37f"),
     between = { map.locations.Pittsburgh, map.locations.Harrisburg }
   },
-  {
+
+  Pittsburgh_Clarksburg = {
     isRail = true,
     zone = g("06fc4d"),
     between = { map.locations.Pittsburgh, map.locations.Clarksburg }
   },
-  {
+
+  TheSouth_Baltimore = {
     isRail = true,
     zone = g("0226a2"),
     between = { map.locations.TheSouth, map.locations.Baltimore }
   },
-  {
+
+  Buffalo_Rochester = {
     isRail = true,
     zone = g("aaf791"),
     between = { map.locations.Buffalo, map.locations.Rochester },
     bonus = "develop"
   },
-  {
+
+  Buffalo_Wilkes_Barre = {
     isRail = true,
     zone = g("76d4c8"),
     between = { map.locations.Buffalo, map.locations.Wilkes_Barre }
   },
-  {
+
+  Harrisburg_Bethlehem = {
     isRail = true,
     zone = g("d06993"),
     between = { map.locations.Harrisburg, map.locations.Bethlehem },
     bonus = "income3"
   },
-  {
+
+  Harrisburg_Philadelphia = {
     isRail = true,
     zone = g("de3723"),
     between = { map.locations.Harrisburg, map.locations.Philadelphia },
     bonus = "whiskey"
   },
-  {
+
+  Philadelphia_NewYork = {
     isRail = true,
     zone = g("abcd12"),
     between = { map.locations.Philadelphia, map.locations.NewYork }
   },
-  {
+
+  Clarksburg_Baltimore = {
     isRail = true,
     zone = g("ab4ee6"),
     between = { map.locations.Clarksburg, map.locations.Baltimore }
   },
-  {
+
+  Baltimore_Philadelphia = {
     isRail = true,
     zone = g("7b7c06"),
     between = { map.locations.Baltimore, map.locations.Philadelphia }
   },
-  {
+
+  Rochester_Albany = {
     isRail = true,
     zone = g("42d759"),
     between = { map.locations.Rochester, map.locations.Albany },
     bonus = "income3"
   },
-  {
+
+  Wilkes_Barre_NewYork = {
     isRail = true,
     zone = g("e5510e"),
     between = { map.locations.Wilkes_Barre, map.locations.NewYork }
   },
-  {
+
+  Wilkes_Barre_Bethlehem = {
     isRail = true,
     zone = g("03f024"),
     between = { map.locations.Wilkes_Barre, map.locations.Bethlehem }
   },
-  {
+
+  Bethlehem_NewYork = {
     isRail = true,
     zone = g("757222"),
     between = { map.locations.Bethlehem, map.locations.NewYork }
   },
-  {
+
+  Albany_Boston = {
     isRail = true,
     zone = g("f31b6a"),
     between = { map.locations.Albany, map.locations.Boston },
     bonus = "whiskey"
   },
-  {
+
+  Albany_NewYork = {
     isRail = true,
     zone = g("49464a"),
     between = { map.locations.Albany, map.locations.NewYork }
   },
-  {
+
+  NewYork_Boston = {
     isRail = true,
     zone = g("eb9dec"),
     between = { map.locations.NewYork, map.locations.Boston }
   },
-  {
+
+  Chicago_Trenton = {
     isRail = false,
     zone = g("3ba465"),
     between = { map.locations.Chicago, map.locations.Trenton },
     bonus = "oil1"
   },
-  {
+
+  Indianapolis_Trenton = {
     isRail = false,
     zone = g("f1fb44"),
     between = { map.locations.Indianapolis, map.locations.Trenton },
     bonus = "oil2"
   },
-  {
+
+  Toledo_Lima__Findlay = {
     isRail = false,
     zone = g("d2eb1a"),
     between = { map.locations.Toledo, map.locations.Lima__Findlay },
     bonus = "oil1"
   },
-  {
+
+  Cleveland_Lima__Findlay = {
     isRail = false,
     zone = g("588a27"),
     between = { map.locations.Cleveland, map.locations.Lima__Findlay },
     bonus = "oil1"
   },
-  {
+
+  Pittsburgh_Macksburg__BurningSpring = {
     isRail = false,
     zone = g("63b0ac"),
     between = { map.locations.Pittsburgh, map.locations.Macksburg__BurningSpring },
     bonus = "oil1"
   },
-  {
+
+  Clarksburg_Macksburg__BurningSpring = {
     isRail = false,
     zone = g("db932f"),
     between = { map.locations.Clarksburg, map.locations.Macksburg__BurningSpring },
     bonus = "oil1"
   },
-  {
+
+  Erie_Venango = {
     isRail = false,
     zone = g("df713e"),
     between = { map.locations.Erie, map.locations.Venango },
     bonus = "oil2"
   },
-  {
+
+  Cleveland_Venango = {
     isRail = false,
     zone = g("615780"),
     between = { map.locations.Cleveland, map.locations.Venango }
   },
-  {
+
+  Pittsburgh_Venango = {
     isRail = false,
     zone = g("34a456"),
     between = { map.locations.Pittsburgh, map.locations.Venango },
     bonus = "oil1"
   },
-  {
+
+  Buffalo_Bradford__Olean = {
     isRail = false,
     zone = g("cc90c2"),
     between = { map.locations.Buffalo, map.locations.Bradford__Olean },
     bonus = "oil1"
   },
-  {
+
+  Wilkes_Barre_Bradford__Olean = {
     isRail = false,
     zone = g("b793ac"),
     between = { map.locations.Wilkes_Barre, map.locations.Bradford__Olean },
     bonus = "oil1"
-  }
+  },
+
+}
+
+map.locations.Saginaw.links = {
+  map.links.Chicago_Saginaw,
+  map.links.Saginaw_Detroit,
+}
+
+map.locations.Detroit.links = {
+  map.links.Saginaw_Detroit,
+  map.links.Toledo_Detroit,
+  map.links.Detroit_Canada,
+}
+
+map.locations.Canada.links = {
+  map.links.Detroit_Canada,
+  map.links.Canada_Buffalo,
+}
+
+map.locations.Chicago.links = {
+  map.links.Chicago_Saginaw,
+  map.links.Chicago_Toledo,
+  map.links.Chicago_EadsBridge,
+  map.links.Chicago_Indianapolis,
+  map.links.Chicago_Trenton,
+}
+
+map.locations.Toledo.links = {
+  map.links.Chicago_Toledo,
+  map.links.Toledo_Detroit,
+  map.links.Toledo_Cleveland,
+  map.links.Toledo_Lima__Findlay,
+}
+
+map.locations.EadsBridge.links = {
+  map.links.Chicago_EadsBridge,
+  map.links.EadsBridge_Indianapolis,
+}
+
+map.locations.Indianapolis.links = {
+  map.links.Chicago_Indianapolis,
+  map.links.EadsBridge_Indianapolis,
+  map.links.Indianapolis_Columbus,
+  map.links.Indianapolis_Cincinnati,
+  map.links.Indianapolis_Trenton,
+}
+
+map.locations.Columbus.links = {
+  map.links.Indianapolis_Columbus,
+  map.links.Cleveland_Columbus,
+}
+
+map.locations.Cincinnati.links = {
+  map.links.Indianapolis_Cincinnati,
+  map.links.Cincinnati_Clarksburg,
+  map.links.Cincinnati_TheSouth,
+}
+
+map.locations.Cleveland.links = {
+  map.links.Toledo_Cleveland,
+  map.links.Cleveland_Erie,
+  map.links.Cleveland_Pittsburgh,
+  map.links.Cleveland_Columbus,
+  map.links.Cleveland_Lima__Findlay,
+  map.links.Cleveland_Venango,
+}
+
+map.locations.Erie.links = {
+  map.links.Cleveland_Erie,
+  map.links.Erie_Buffalo,
+  map.links.Erie_Venango,
+}
+
+map.locations.Buffalo.links = {
+  map.links.Canada_Buffalo,
+  map.links.Erie_Buffalo,
+  map.links.Buffalo_Rochester,
+  map.links.Buffalo_Wilkes_Barre,
+  map.links.Buffalo_Bradford__Olean,
+}
+
+map.locations.Rochester.links = {
+  map.links.Buffalo_Rochester,
+  map.links.Rochester_Albany,
+}
+
+map.locations.Albany.links = {
+  map.links.Rochester_Albany,
+  map.links.Albany_Boston,
+  map.links.Albany_NewYork,
+}
+
+map.locations.Boston.links = {
+  map.links.Albany_Boston,
+  map.links.NewYork_Boston,
+}
+
+map.locations.Wilkes_Barre.links = {
+  map.links.Buffalo_Wilkes_Barre,
+  map.links.Wilkes_Barre_NewYork,
+  map.links.Wilkes_Barre_Bethlehem,
+  map.links.Wilkes_Barre_Bradford__Olean,
+}
+
+map.locations.NewYork.links = {
+  map.links.Philadelphia_NewYork,
+  map.links.Wilkes_Barre_NewYork,
+  map.links.Bethlehem_NewYork,
+  map.links.Albany_NewYork,
+  map.links.NewYork_Boston,
+}
+
+map.locations.Bethlehem.links = {
+  map.links.Harrisburg_Bethlehem,
+  map.links.Wilkes_Barre_Bethlehem,
+  map.links.Bethlehem_NewYork,
+}
+
+map.locations.Harrisburg.links = {
+  map.links.Pittsburgh_Harrisburg,
+  map.links.Harrisburg_Bethlehem,
+  map.links.Harrisburg_Philadelphia,
+}
+
+map.locations.Pittsburgh.links = {
+  map.links.Cleveland_Pittsburgh,
+  map.links.Pittsburgh_Harrisburg,
+  map.links.Pittsburgh_Clarksburg,
+  map.links.Pittsburgh_Macksburg__BurningSpring,
+  map.links.Pittsburgh_Venango,
+}
+
+map.locations.Clarksburg.links = {
+  map.links.Cincinnati_Clarksburg,
+  map.links.Pittsburgh_Clarksburg,
+  map.links.Clarksburg_Baltimore,
+  map.links.Clarksburg_Macksburg__BurningSpring,
+}
+
+map.locations.Baltimore.links = {
+  map.links.TheSouth_Baltimore,
+  map.links.Clarksburg_Baltimore,
+  map.links.Baltimore_Philadelphia,
+}
+
+map.locations.Philadelphia.links = {
+  map.links.Harrisburg_Philadelphia,
+  map.links.Philadelphia_NewYork,
+  map.links.Baltimore_Philadelphia,
+}
+
+map.locations.TheSouth.links = {
+  map.links.Cincinnati_TheSouth,
+  map.links.TheSouth_Baltimore,
+}
+
+map.locations.Trenton.links = {
+  map.links.Chicago_Trenton,
+  map.links.Indianapolis_Trenton,
+}
+
+map.locations.Lima__Findlay.links = {
+  map.links.Toledo_Lima__Findlay,
+  map.links.Cleveland_Lima__Findlay,
+}
+
+map.locations.Macksburg__BurningSpring.links = {
+  map.links.Pittsburgh_Macksburg__BurningSpring,
+  map.links.Clarksburg_Macksburg__BurningSpring,
+}
+
+map.locations.Venango.links = {
+  map.links.Erie_Venango,
+  map.links.Cleveland_Venango,
+  map.links.Pittsburgh_Venango,
+}
+
+map.locations.Bradford__Olean.links = {
+  map.links.Buffalo_Bradford__Olean,
+  map.links.Wilkes_Barre_Bradford__Olean,
 }
 
 return map
