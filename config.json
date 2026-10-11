@@ -97,8 +97,6 @@
     "Card.3bf77f",
     "Card.3ab70b",
     "Card.3cf47b",
-    "Card.b5340f",
-    "Card.39dd39",
     "Card.e6d629",
     "Card.ae3d7d",
     "Card.9fcfe8",
@@ -529,7 +527,9 @@
     "ScriptingTrigger.8cffa7",
     "ScriptingTrigger.567a86",
     "ScriptingTrigger.e3c5b4",
-    "ScriptingTrigger.ad597e"
+    "ScriptingTrigger.ad597e",
+    "Card.b5340f",
+    "Card.39dd39"
   ],
   "PlayArea": 0.5,
   "PlayerCounts": [
