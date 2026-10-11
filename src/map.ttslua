@@ -249,6 +249,256 @@ local map = {
 }
 
 map.links = {
+  {
+    isRail = true,
+    zone = g("fe49fb"),
+    between = { map.locations.Chicago, map.locations.Saginaw },
+    bonus = "income2"
+  },
+  {
+    isRail = true,
+    zone = g("39148b"),
+    between = { map.locations.Chicago, map.locations.Toledo }
+  },
+  {
+    isRail = true,
+    zone = g("3bebfb"),
+    between = { map.locations.Chicago, map.locations.EadsBridge },
+    bonus = "develop"
+  },
+  {
+    isRail = true,
+    zone = g("e31576"),
+    between = { map.locations.Chicago, map.locations.Indianapolis }
+  },
+  {
+    isRail = true,
+    zone = g("ea91f0"),
+    between = { map.locations.EadsBridge, map.locations.Indianapolis },
+    bonus = "develop"
+  },
+  {
+    isRail = true,
+    zone = g("146344"),
+    between = { map.locations.Saginaw, map.locations.Detroit }
+  },
+  {
+    isRail = true,
+    zone = g("410269"),
+    between = { map.locations.Toledo, map.locations.Detroit }
+  },
+  {
+    isRail = true,
+    zone = g("1de72e"),
+    between = { map.locations.Toledo, map.locations.Cleveland }
+  },
+  {
+    isRail = true,
+    zone = g("fa18d8"),
+    between = { map.locations.Indianapolis, map.locations.Columbus }
+  },
+  {
+    isRail = true,
+    zone = g("4d4ff4"),
+    between = { map.locations.Indianapolis, map.locations.Cincinnati },
+    bonus = "whiskey"
+  },
+  {
+    isRail = true,
+    zone = g("5d7ece"),
+    between = { map.locations.Detroit, map.locations.Canada },
+    bonus = "whiskey"
+  },
+  {
+    isRail = true,
+    zone = g("4049f8"),
+    between = { map.locations.Cleveland, map.locations.Erie }
+  },
+  {
+    isRail = true,
+    zone = g("274c2b"),
+    between = { map.locations.Cleveland, map.locations.Pittsburgh }
+  },
+  {
+    isRail = true,
+    zone = g("0f7803"),
+    between = { map.locations.Cleveland, map.locations.Columbus }
+  },
+  {
+    isRail = true,
+    zone = g("a3f8b3"),
+    between = { map.locations.Cincinnati, map.locations.Clarksburg }
+  },
+  {
+    isRail = true,
+    zone = g("c69437"),
+    between = { map.locations.Cincinnati, map.locations.TheSouth }
+  },
+  {
+    isRail = true,
+    zone = g("e1f7aa"),
+    between = { map.locations.Canada, map.locations.Buffalo }
+  },
+  {
+    isRail = true,
+    zone = g("538db5"),
+    between = { map.locations.Erie, map.locations.Buffalo }
+  },
+  {
+    isRail = true,
+    zone = g("6cb37f"),
+    between = { map.locations.Pittsburgh, map.locations.Harrisburg }
+  },
+  {
+    isRail = true,
+    zone = g("06fc4d"),
+    between = { map.locations.Pittsburgh, map.locations.Clarksburg }
+  },
+  {
+    isRail = true,
+    zone = g("0226a2"),
+    between = { map.locations.TheSouth, map.locations.Baltimore }
+  },
+  {
+    isRail = true,
+    zone = g("aaf791"),
+    between = { map.locations.Buffalo, map.locations.Rochester },
+    bonus = "develop"
+  },
+  {
+    isRail = true,
+    zone = g("76d4c8"),
+    between = { map.locations.Buffalo, map.locations.Wilkes_Barre }
+  },
+  {
+    isRail = true,
+    zone = g("d06993"),
+    between = { map.locations.Harrisburg, map.locations.Bethlehem },
+    bonus = "income3"
+  },
+  {
+    isRail = true,
+    zone = g("de3723"),
+    between = { map.locations.Harrisburg, map.locations.Philadelphia },
+    bonus = "whiskey"
+  },
+  {
+    isRail = true,
+    zone = g("abcd12"),
+    between = { map.locations.Philadelphia, map.locations.NewYork }
+  },
+  {
+    isRail = true,
+    zone = g("ab4ee6"),
+    between = { map.locations.Clarksburg, map.locations.Baltimore }
+  },
+  {
+    isRail = true,
+    zone = g("7b7c06"),
+    between = { map.locations.Baltimore, map.locations.Philadelphia }
+  },
+  {
+    isRail = true,
+    zone = g("42d759"),
+    between = { map.locations.Rochester, map.locations.Albany },
+    bonus = "income3"
+  },
+  {
+    isRail = true,
+    zone = g("e5510e"),
+    between = { map.locations.Wilkes_Barre, map.locations.NewYork }
+  },
+  {
+    isRail = true,
+    zone = g("03f024"),
+    between = { map.locations.Wilkes_Barre, map.locations.Bethlehem }
+  },
+  {
+    isRail = true,
+    zone = g("757222"),
+    between = { map.locations.Bethlehem, map.locations.NewYork }
+  },
+  {
+    isRail = true,
+    zone = g("f31b6a"),
+    between = { map.locations.Albany, map.locations.Boston },
+    bonus = "whiskey"
+  },
+  {
+    isRail = true,
+    zone = g("49464a"),
+    between = { map.locations.Albany, map.locations.NewYork }
+  },
+  {
+    isRail = true,
+    zone = g("eb9dec"),
+    between = { map.locations.NewYork, map.locations.Boston }
+  },
+  {
+    isRail = false,
+    zone = g("3ba465"),
+    between = { map.locations.Chicago, map.locations.Trenton },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("f1fb44"),
+    between = { map.locations.Indianapolis, map.locations.Trenton },
+    bonus = "oil2"
+  },
+  {
+    isRail = false,
+    zone = g("d2eb1a"),
+    between = { map.locations.Toldeo, map.locations.Lima__Findlay },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("588a27"),
+    between = { map.locations.Cleveland, map.locations.Lima__Findlay },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("63b0ac"),
+    between = { map.locations.Pittsburgh, map.locations.Macksburg__BurningSpring },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("db932f"),
+    between = { map.locations.Clarksburg, map.locations.Macksburg__BurningSpring },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("df713e"),
+    between = { map.locations.Erie, map.locations.Venango },
+    bonus = "oil2"
+  },
+  {
+    isRail = false,
+    zone = g("615780"),
+    between = { map.locations.Cleveland, map.locations.Venango }
+  },
+  {
+    isRail = false,
+    zone = g("34a456"),
+    between = { map.locations.Pittsburgh, map.locations.Venango },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("cc90c2"),
+    between = { map.locations.Buffalo, map.locations.Bradford__Olean },
+    bonus = "oil1"
+  },
+  {
+    isRail = false,
+    zone = g("b793ac"),
+    between = { map.locations.Wilkes_Barre, map.locations.Bradford__Olean },
+    bonus = "oil1"
+  }
 }
 
 return map
