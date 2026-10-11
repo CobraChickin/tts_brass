@@ -1,0 +1,254 @@
+local map = {
+  locations = {
+    Saginaw = {
+      industries = {
+        g("85d374"),
+        g("25da0e"),
+        g("5b2ea4")
+      },
+      coalCokePossible = true,
+    },
+    Detroit = {
+      industries = {
+        g("7f70f9"),
+        g("e2a58c"),
+        g("381413")
+      },
+      ironSteelPossible = true,
+    },
+    Canada = {
+      connectionPoints = 3,
+      marketPrice = 6,
+      cokeMarket = {
+        g("b40547"),
+        g("e74e69")
+      },
+      steelMarket = {
+        g("f916f2"),
+        g("1f814f")
+      },
+      merchant = g("8cffa7")
+    },
+    Chicago = {
+      industries = {
+        g("af0bf8"),
+        g("615683"),
+        g("4d507f"),
+        g("07095f")
+      },
+      ironSteelPossible = true,
+    },
+    Toledo = {
+      industries = {
+        g("427ce4"),
+        g("0ec309"),
+        g("37a1cb")
+      },
+      marketPrice = 4,
+      coalMarket = {
+        g("d31428"),
+        g("0fc553"),
+        g("4c3fa8")
+      },
+      ironMarket = {
+        g("3a9c8c"),
+        g("617106"),
+        g("c8de04")
+      },
+      ironSteelPossible = true,
+    },
+    EadsBridge = {
+      connectionPoints = 3,
+      marketPrice = 5,
+      cokeMarket = {
+        g("a21dd5"),
+        g("c62011")
+      },
+      steelMarket = {
+        g("e74946"),
+        g("51e875")
+      },
+      merchant = g("567a86")
+    },
+    Indianapolis = {
+      industries = {
+        g("5a517d"),
+        g("642ae6")
+      },
+    },
+    Columbus = {
+      industries = {
+        g("2b5b36"),
+        g("18c864")
+      },
+      coalCokePossible = true,
+    },
+    Cincinnati = {
+      connectionPoints = 3,
+    },
+    Cleveland = {
+      industries = {
+        g("7aeefe"),
+        g("10a26e"),
+        g("32642e")
+      },
+      ironSteelPossible = true,
+    },
+    Erie = {
+      industries = {
+        g("354be5"),
+        g("eea76d")
+      },
+      ironSteelPossible = true,
+    },
+    Buffalo = {
+      industries = {
+        g("1d639e"),
+        g("96844e"),
+        g("39631c")
+      },
+      ironSteelPossible = true,
+    },
+    Rochester = {
+      industries = {
+        g("4ed794"),
+        g("c6ff70")
+      },
+      ironSteelPossible = true,
+    },
+    Albany = {
+      connectionPoints = 3,
+    },
+    Boston = {
+      industries = {
+        g("3b15ce"),
+        g("ede534")
+      },
+      merchant = g("ad597e"),
+    },
+    Wilkes_Barre = {
+      industries = {
+        g("ff6de0"),
+        g("8f8822"),
+        g("d18950")
+      },
+      marketPrice = 2,
+      coalMarket = {
+        g("a17644"),
+        g("8bf0a5"),
+        g("ee7d4f")
+      },
+      ironMarket = {
+        g("e23c87"),
+        g("14e308"),
+        g("f16e50")
+      },
+      coalCokePossible = true,
+    },
+    NewYork = {
+      industries = {
+        g("bc0607"),
+        g("bdc3cd"),
+        g("d1c793"),
+        g("d4b26c")
+      },
+      ironSteelPossible = true,
+    },
+    Bethlehem = {
+      industries = {
+        g("2badc4"),
+        g("e5a460")
+      },
+      coalCokePossible = true,
+      ironSteelPossible = true,
+    },
+    Harrisburg = {
+      industries = {
+        g("5f85f6"),
+        g("a98728")
+      },
+      coalCokePossible = true,
+      ironSteelPossible = true,
+    },
+    Pittsburgh = {
+      industries = {
+        g("c76ac0"),
+        g("946ee8"),
+        g("319e0a"),
+        g("7aba6d"),
+        g("091144"),
+      },
+      coalCokePossible = true,
+      ironSteelPossible = true,
+    },
+    Clarksburg = {
+      industries = {
+        g("d3a0be"),
+        g("54b180"),
+        g("62d3fc")
+      },
+      marketPrice = 3,
+      coalMarket = {
+        g("5e9aee"),
+        g("8978c7"),
+        g("6e2bf8")
+      },
+      ironMarket = {
+        g("4a7c57"),
+        g("003ebc"),
+        g("3d3909")
+      },
+      coalCokePossible = true,
+      ironSteelPossible = true,
+    },
+    Baltimore = {
+      industries = {
+        g("8eda5b"),
+        g("1de36b"),
+        g("b3c9ea")
+      },
+      ironSteelPossible = true,
+    },
+    Philadelphia = {
+      industries = {
+        g("c20fe1"),
+        g("88290b"),
+        g("08e992")
+      },
+      marketPrice = 4,
+      cokeMarket = {
+        g("c30211"),
+        g("e1b900")
+      },
+      steelMarket = {
+        g("dc6d72"),
+        g("368354")
+      },
+      ironSteelPossible = true,
+    },
+    TheSouth = {
+      connectionPoints = 2,
+      merchant = g("e3c5b4")
+    },
+    Trenton = {
+      rigPosition = {10.70, 1.37, -1.08}
+    },
+    Lima__Findlay = {
+      rigPosition = {7.64, 1.37, -1.00}
+    },
+    Macksburg__BurningSpring = {
+      rigPosition = {6.24, 1.37, 5.86}
+    },
+    Venango = {
+      rigPosition = {-2.20, 1.37, -3.32}
+    },
+    Bradford__Olean = {
+      rigPosition = {-2.20, 1.37, -3.32}
+    }
+  },
+}
+
+map.links = {
+}
+
+return map
