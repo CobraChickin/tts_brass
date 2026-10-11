@@ -34,7 +34,7 @@
   },
   "Lighting_path": "Lighting.json",
   "LuaScript": "require(\"Global\")",
-  "LuaScriptState": "",
+  "LuaScriptState": "[]",
   "MusicPlayer_path": "MusicPlayer.json",
   "Note": "",
   "ObjectStates_order": [
@@ -525,7 +525,11 @@
     "ScriptingTrigger.7aba6d",
     "ScriptingTrigger.319e0a",
     "ScriptingTrigger.c76ac0",
-    "ScriptingTrigger.946ee8"
+    "ScriptingTrigger.946ee8",
+    "ScriptingTrigger.8cffa7",
+    "ScriptingTrigger.567a86",
+    "ScriptingTrigger.e3c5b4",
+    "ScriptingTrigger.ad597e"
   ],
   "PlayArea": 0.5,
   "PlayerCounts": [
