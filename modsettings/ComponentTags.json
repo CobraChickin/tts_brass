@@ -1,0 +1,76 @@
+{
+  "labels": [
+    {
+      "displayed": "iron",
+      "normalized": "iron"
+    },
+    {
+      "displayed": "coal",
+      "normalized": "coal"
+    },
+    {
+      "displayed": "coke",
+      "normalized": "coke"
+    },
+    {
+      "displayed": "steel",
+      "normalized": "steel"
+    },
+    {
+      "displayed": "whiskey",
+      "normalized": "whiskey"
+    },
+    {
+      "displayed": "oil",
+      "normalized": "oil"
+    },
+    {
+      "displayed": "industry",
+      "normalized": "industry"
+    },
+    {
+      "displayed": "quality",
+      "normalized": "quality"
+    },
+    {
+      "displayed": "train",
+      "normalized": "train"
+    },
+    {
+      "displayed": "heavy",
+      "normalized": "heavy"
+    },
+    {
+      "displayed": "white",
+      "normalized": "white"
+    },
+    {
+      "displayed": "red",
+      "normalized": "red"
+    },
+    {
+      "displayed": "yellow",
+      "normalized": "yellow"
+    },
+    {
+      "displayed": "purple",
+      "normalized": "purple"
+    },
+    {
+      "displayed": "pipe",
+      "normalized": "pipe"
+    },
+    {
+      "displayed": "oilrig",
+      "normalized": "oilrig"
+    },
+    {
+      "displayed": "merchant",
+      "normalized": "merchant"
+    },
+    {
+      "displayed": "marker",
+      "normalized": "marker"
+    }
+  ]
+}

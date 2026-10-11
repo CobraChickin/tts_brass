@@ -1,0 +1,223 @@
+local data =
+{
+  nonInteractables = {
+    g("6cbca9"), -- table
+    g("3a0cba"), -- mainBoard
+    g("89fd32"), -- yellowBoard
+    g("ee73de"), -- whiteBoard
+    g("216c3f"), -- redBoard
+    g("6e0c83"), -- purpleBoard
+    g("780734"), -- yellowWallet
+    g("17bd26"), -- whiteWallet
+    g("7fd1e7"), -- redWallet
+    g("b43c35") -- purpleWallet
+  },
+  vpSpace = {
+    g("f88df6"), -- index 0
+    g("e929f6"), -- index 1
+    g("0983ee"), -- index 2
+    g("20894a"), -- index 3
+    g("ee8a23"), -- index 4
+    g("fd240f"), -- index 5
+    g("eb4ecf"), -- index 6
+    g("b2686d"), -- index 7
+    g("005ce6"), -- index 8
+    g("df2bd0"), -- index 9
+    g("880589"), -- index 10
+    g("9eabe8"), -- index 11
+    g("571210"), -- index 12
+    g("a994ec"), -- index 13
+    g("690f90"), -- index 14
+    g("4b5824"), -- index 15
+    g("583cc9"), -- index 16
+    g("93a689"), -- index 17
+    g("4e4ff2"), -- index 18
+    g("c2f8af"), -- index 19
+    g("6f4c43"), -- index 20
+    g("714f26"), -- index 21
+    g("1eeb0e"), -- index 22
+    g("c84cd5"), -- index 23
+    g("f8e58d"), -- index 24
+    g("ebf21b"), -- index 25
+    g("d48211"), -- index 26
+    g("f9a6a9"), -- index 27
+    g("8c0373"), -- index 28
+    g("1ba4a7"), -- index 29
+    g("3d64e5"), -- index 30
+    g("7a62c8"), -- index 31
+    g("334034"), -- index 32
+    g("7d3902"), -- index 33
+    g("f0ca3f"), -- index 34
+    g("34e4f6"), -- index 35
+    g("7c71ab"), -- index 36
+    g("8b962a"), -- index 37
+    g("766fc0"), -- index 38
+    g("ee2b7e"), -- index 39
+    g("24ecf3"), -- index 40
+    g("3ae809"), -- index 41
+    g("aa8e10"), -- index 42
+    g("ee5253"), -- index 43
+    g("e7cea2"), -- index 44
+    g("4f90cd"), -- index 45
+    g("cfad81"), -- index 46
+    g("f4b6df"), -- index 47
+    g("3f2d55"), -- index 48
+    g("f5fcf4"), -- index 49
+    g("aa9753"), -- index 50
+    g("77834b"), -- index 51
+    g("07b678"), -- index 52
+    g("583be4"), -- index 53
+    g("fcf2be"), -- index 54
+    g("b037cf"), -- index 55
+    g("c53292"), -- index 56
+    g("0fd7fe"), -- index 57
+    g("e64a6c"), -- index 58
+    g("bf9a7b"), -- index 59
+    g("e6768b"), -- index 60
+    g("9a7e53"), -- index 61
+    g("69bd2b"), -- index 62
+    g("9445d6"), -- index 63
+    g("43aa3f"), -- index 64
+    g("c6c810"), -- index 65
+    g("1fd688"), -- index 66
+    g("1c5bc9"), -- index 67
+    g("01b6db"), -- index 68
+    g("779e37"), -- index 69
+    g("2c8e68"), -- index 70
+    g("cbe37d"), -- index 71
+    g("bcd878"), -- index 72
+    g("a915dd"), -- index 73
+    g("939684"), -- index 74
+    g("08a7cc"), -- index 75
+    g("4c34f7"), -- index 76
+    g("8cc9a0"), -- index 77
+    g("6f2277"), -- index 78
+    g("cdd292"), -- index 79
+    g("a0709e"), -- index 80
+    g("dcdaea"), -- index 81
+    g("e0d2d1"), -- index 82
+    g("4046f5"), -- index 83
+    g("f3370b"), -- index 84
+    g("47d750"), -- index 85
+    g("cbb3ed"), -- index 86
+    g("75c104"), -- index 87
+    g("955abd"), -- index 88
+    g("f4505b"), -- index 89
+    g("651116"), -- index 90
+    g("b1876c"), -- index 91
+    g("5c4b4a"), -- index 92
+    g("252e40"), -- index 93
+    g("a43079"), -- index 94
+    g("30a3f4"), -- index 95
+    g("a59c5d"), -- index 96
+    g("444353"), -- index 97
+    g("a62b0f"), -- index 98
+    g("6ae4ec"), -- index 99
+  },
+  map = {
+    locations = {
+      Saginaw = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Detroit = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Chicago = {
+        g(""),
+        g(""),
+        g(""),
+        g("")
+      },
+      Toledo = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Indianapolis = {
+        g(""),
+        g("")
+      },
+      Columbus = {
+        g(""),
+        g("")
+      },
+      Cleveland = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Erie = {
+        g(""),
+        g("")
+      },
+      Buffalo = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Rochester = {
+        g(""),
+        g("")
+      },
+      Boston = {
+        g(""),
+        g("")
+      },
+      WilkesBarre = {
+        g(""),
+        g(""),
+        g("")
+      },
+      NewYork = {
+        g(""),
+        g(""),
+        g(""),
+        g("")
+      },
+      Bethlehem = {
+        g(""),
+        g("")
+      },
+      Harrisburg = {
+        g(""),
+        g("")
+      },
+      Pittsburgh = {
+        g(""),
+        g(""),
+        g(""),
+        g(""),
+        g("")
+      },
+      Clarksburg = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Baltimore = {
+        g(""),
+        g(""),
+        g("")
+      },
+      Philadelphia = {
+        g(""),
+        g(""),
+        g("")
+      },
+    },
+    crossroads = {
+      Cincinatti,
+      Albany
+    },
+    markets = {
+      Canada = {
+      }
+    }
+  }
+}
+
+return data

@@ -1,0 +1,3 @@
+--- Alias for getObjectFromGUID
+---@param guid string
+function g(guid) return getObjectFromGUID(guid) end

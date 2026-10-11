@@ -1,0 +1,100 @@
+-- Bundled by luabundle {"version":"1.6.0"}
+local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)
+	local loadingPlaceholder = {[{}] = true}
+
+	local register
+	local modules = {}
+
+	local require
+	local loaded = {}
+
+	register = function(name, body)
+		if not modules[name] then
+			modules[name] = body
+		end
+	end
+
+	require = function(name)
+		local loadedModule = loaded[name]
+
+		if loadedModule then
+			if loadedModule == loadingPlaceholder then
+				return nil
+			end
+		else
+			if not modules[name] then
+				if not superRequire then
+					local identifier = type(name) == 'string' and '\"' .. name .. '\"' or tostring(name)
+					error('Tried to require ' .. identifier .. ', but no such module has been registered')
+				else
+					return superRequire(name)
+				end
+			end
+
+			loaded[name] = loadingPlaceholder
+			loadedModule = modules[name](require, loaded, register, modules)
+			loaded[name] = loadedModule
+		end
+
+		return loadedModule
+	end
+
+	return require, loaded, register, modules
+end)(nil)
+__bundle_register("Global", function(require, _LOADED, __bundle_register, __bundle_modules)
+
+require("tools")
+data = require("data")
+
+function onSave()
+  return JSON.encode({
+    
+  })
+end
+
+function onLoad(saveState)
+  local loadedData = JSON.decode(saveState)
+  if loadedData ~= nil then
+  end
+
+  print(#data.nonInteractables)
+  for _, nonInteractable in pairs(data.nonInteractables) do
+    print(nonInteractable)
+    if nonInteractable ~= nil then
+      nonInteractable.interactable = false
+    end
+  end
+
+
+
+end
+end)
+__bundle_register("__root", function(require, _LOADED, __bundle_register, __bundle_modules)
+require("Global")
+end)
+__bundle_register("data", function(require, _LOADED, __bundle_register, __bundle_modules)
+
+require("tools")
+return
+{
+  nonInteractables = {
+    g("6cbca9"), -- table
+    g("3a0cba"), -- mainBoard
+    g("89fd32"), -- yellowBoard
+    g("ee73de"), -- whiteBoard
+    g("216c3f"), -- redBoard
+    g("6e0c83"), -- purpleBoard
+    g("780734"), -- yellowWallet
+    g("17bd26"), -- whiteWallet
+    g("7fd1e7"), -- redWallet
+    g("b43c35") -- purpleWallet
+  },
+  
+}
+end)
+__bundle_register("tools", function(require, _LOADED, __bundle_register, __bundle_modules)
+--- Alias for getObjectFromGUID
+---@param guid string
+function g(guid) return getObjectFromGUID(guid) end
+end)
+return __bundle_require("__root")

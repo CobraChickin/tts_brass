@@ -1,0 +1,80 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "BrassPittsburgh: Build",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/.vscode/build.py",
+        "--action",
+        "build",
+        "--moddir",
+        "${workspaceFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}${pathSeparator}.vscode"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "BrassPittsburgh: Decompose",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/.vscode/build.py",
+        "--action",
+        "decompose",
+        "--moddir",
+        "${workspaceFolder}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}${pathSeparator}.vscode"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "BrassPittsburgh: Show Bundled Global",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/.vscode/show_bundle.py",
+        "global"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}${pathSeparator}.vscode"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "BrassPittsburgh: Debug Line",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/.vscode/debug.py",
+        "${input:guid}",
+        "${input:line}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}${pathSeparator}.vscode"
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "guid",
+      "type": "promptString",
+      "description": "Enter Object GUID (or global)"
+    },
+    {
+      "id": "line",
+      "type": "promptString",
+      "description": "Enter Error Line Number"
+    }
+  ]
+}

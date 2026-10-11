@@ -1,0 +1,51 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.113,
+    "g": 0.392,
+    "r": 0.956
+  },
+  "ContainedObjects_order": [
+    "Custom_Assetbundle.937fe7"
+  ],
+  "ContainedObjects_path": "Iron.610cb6",
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "610cb6",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Infinite_Bag",
+  "Nickname": "Iron",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 10,
+    "posY": 0.981,
+    "posZ": -22,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1.1,
+    "scaleY": 1.1,
+    "scaleZ": 1.1
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

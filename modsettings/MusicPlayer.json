@@ -1,0 +1,16 @@
+{
+  "AudioLibrary": [
+    {
+      "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2165728609646775029/3531F56383B11F5E7160F02BA90DCCBB31C9515D/",
+      "Item2": "运河时代"
+    },
+    {
+      "Item1": "https://steamusercontent-a.akamaihd.net/ugc/2165728609646775398/CB67BA2BFACD81B387DF0607926C97202846212A/",
+      "Item2": "铁路时代"
+    }
+  ],
+  "CurrentAudioTitle": "运河时代",
+  "CurrentAudioURL": "https://steamusercontent-a.akamaihd.net/ugc/2165728609646775029/3531F56383B11F5E7160F02BA90DCCBB31C9515D/",
+  "PlaylistEntry": 0,
+  "RepeatSong": true
+}

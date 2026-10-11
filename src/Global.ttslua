@@ -1,0 +1,25 @@
+
+require("tools")
+
+function onSave()
+  return JSON.encode({
+    
+  })
+end
+
+function onLoad(saveState)
+  local loadedData = JSON.decode(saveState)
+  if loadedData ~= nil then
+  end
+
+  data = require("data")
+  
+  for _, nonInteractable in pairs(data.nonInteractables) do
+    if nonInteractable ~= nil then
+      nonInteractable.interactable = false
+    end
+  end
+
+  
+
+end
