@@ -243,7 +243,7 @@ local map = {
       rigPosition = {-2.20, 1.37, -3.32}
     },
     Bradford__Olean = {
-      rigPosition = {-2.20, 1.37, -3.32}
+      rigPosition = {-4.60, 1.37, -5.88}
     }
   },
 }
@@ -449,7 +449,7 @@ map.links = {
   {
     isRail = false,
     zone = g("d2eb1a"),
-    between = { map.locations.Toldeo, map.locations.Lima__Findlay },
+    between = { map.locations.Toledo, map.locations.Lima__Findlay },
     bonus = "oil1"
   },
   {
